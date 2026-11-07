@@ -1,0 +1,898 @@
+/* ==========================================================================
+   TEMA BIRU KEEMASAN PROFESIONAL & ELEGAN (ROYAL BLUE & GOLD PRESTIGE)
+   TVRI MALUKU DIGITAL HUB & SIMANDAT TERINTEGRASI
+   - Nuansa: Royal Blue / Sapphire & Deep Midnight Navy berpadu Aksen Emas Murni
+   - Tipografi: Diterangkan, Berkilau, Sangat Tajam & Kontras Tinggi (High Legibility)
+   - Tampilan & Tata Letak: 100% Tetap Presisi Tanpa Mengubah Struktur DOM
+   ========================================================================== */
+
+:root {
+  --gold-pure: #f5b027;
+  --gold-gradient: linear-gradient(135deg, #fff382 0%, #f5b027 50%, #d48b0a 100%);
+  --gold-glow: 0 0 20px rgba(245, 176, 39, 0.35);
+  --gold-border: rgba(245, 176, 39, 0.45);
+  --gold-border-bright: rgba(251, 191, 36, 0.85);
+  --blue-royal-bg: linear-gradient(150deg, rgba(9, 26, 64, 0.96) 0%, rgba(5, 15, 38, 0.98) 100%);
+  --blue-hero-bg: radial-gradient(circle at 50% 22%, rgba(245, 176, 39, 0.16) 0%, transparent 58%),
+                  radial-gradient(circle at 15% 75%, rgba(30, 64, 175, 0.35) 0%, transparent 60%),
+                  linear-gradient(180deg, #041024 0%, #08214d 50%, #051636 100%);
+}
+
+/* ==========================================================================
+   1. GLOBAL PAGE & BASE TEXT BRIGHTENING
+   ========================================================================== */
+html {
+  background-color: #030c1c !important;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #030c1c !important;
+  background-image: 
+    linear-gradient(180deg, rgba(2, 8, 24, 0.75) 0%, rgba(4, 16, 42, 0.9) 100%),
+    url('/images/bg-infografis.png') !important;
+  background-attachment: fixed !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  color: #f8fafc !important;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Universal White Background Elimination */
+#root,
+#root > div,
+#root > div.bg-\[\#f8fafc\],
+div[class*="min-h-screen"][class*="bg-\[\#f8fafc\]"],
+div[class*="min-h-screen"][class*="bg-"],
+.bg-\[\#f8fafc\] {
+  background-color: transparent !important;
+}
+
+/* Universal Text Brightening */
+#root .text-slate-900 {
+  color: #ffffff !important;
+}
+#root .text-slate-800 {
+  color: #f8fafc !important;
+}
+#root .text-slate-700 {
+  color: #f1f5f9 !important;
+}
+#root .text-slate-600 {
+  color: #e2e8f0 !important;
+}
+#root .text-slate-500 {
+  color: #cbd5e1 !important;
+}
+#root .text-slate-400 {
+  color: #94a3b8 !important;
+}
+
+#root .text-blue-900 {
+  color: #ffffff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+#root .text-blue-800 {
+  color: #93c5fd !important;
+}
+#root .text-blue-700 {
+  color: #60a5fa !important;
+}
+#root a.text-blue-700 {
+  color: #93c5fd !important;
+}
+#root a.text-blue-700:hover {
+  color: #fde047 !important;
+}
+
+/* Cyan to Gold Overrides */
+#root .text-cyan-300,
+.text-cyan-300 {
+  color: #f5b027 !important;
+  text-shadow: 0 0 14px rgba(245, 176, 39, 0.45) !important;
+}
+
+#root .text-cyan-200,
+.text-cyan-200 {
+  color: #fde047 !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em !important;
+  text-shadow: 0 0 10px rgba(245, 176, 39, 0.35) !important;
+}
+
+/* ==========================================================================
+   2. TOP NAVIGATION BAR (TVRI MALUKU BRANDING)
+   ========================================================================== */
+.sticky.top-0 {
+  background: rgba(5, 16, 38, 0.95) !important;
+  backdrop-filter: blur(18px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(180%) !important;
+  border-bottom: 1.5px solid rgba(245, 176, 39, 0.45) !important;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.55), 0 1px 0 rgba(251, 191, 36, 0.25) !important;
+}
+
+.sticky.top-0 button span.text-slate-900,
+.sticky.top-0 span.text-slate-900 {
+  color: #ffffff !important;
+  text-shadow: 0 0 12px rgba(245, 176, 39, 0.4) !important;
+}
+
+.sticky.top-0 span[class*="rounded"][class*="bg-blue-"],
+.sticky.top-0 span.bg-amber-100 {
+  background: linear-gradient(135deg, #f5b027 0%, #d48b0a 100%) !important;
+  color: #040e1f !important;
+  border: 1px solid #fef08a !important;
+  font-weight: 800 !important;
+}
+
+nav.hidden.lg\:flex button,
+nav.hidden.lg\:flex a {
+  color: #e2e8f0 !important;
+  transition: all 0.2s ease !important;
+}
+
+nav.hidden.lg\:flex button:hover,
+nav.hidden.lg\:flex a:hover {
+  color: #fde047 !important;
+  background: rgba(30, 64, 175, 0.35) !important;
+  text-shadow: 0 0 8px rgba(253, 224, 71, 0.4) !important;
+}
+
+nav.hidden.lg\:flex button.text-blue-700.bg-blue-50,
+nav.hidden.lg\:flex button.bg-slate-50.text-blue-700 {
+  color: #fde047 !important;
+  background: linear-gradient(135deg, rgba(30, 64, 175, 0.45), rgba(245, 176, 39, 0.25)) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.5) !important;
+  box-shadow: 0 0 12px rgba(245, 176, 39, 0.25) !important;
+}
+
+/* "Masuk" / Operator Button */
+button.bg-blue-700 {
+  background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 50%, #2563eb 100%) !important;
+  border: 1.5px solid rgba(251, 191, 36, 0.6) !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35), 0 0 12px rgba(245, 176, 39, 0.3) !important;
+  font-weight: 700 !important;
+}
+button.bg-blue-700:hover {
+  background: linear-gradient(135deg, #f5b027 0%, #d48b0a 100%) !important;
+  color: #040e1f !important;
+  border-color: #fef08a !important;
+  box-shadow: 0 4px 20px rgba(245, 176, 39, 0.55) !important;
+}
+
+/* Dropdown popups */
+.sticky.top-0 .bg-white.rounded-xl.shadow-xl,
+.sticky.top-0 div[class*="animate-in"] .bg-white {
+  background: linear-gradient(160deg, #09214e 0%, #051433 100%) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.45) !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75), 0 0 20px rgba(245, 176, 39, 0.2) !important;
+  color: #f8fafc !important;
+}
+
+/* ==========================================================================
+   3. MARQUEE / WARTA SIMANDAT TICKER
+   ========================================================================== */
+div[class*="bg-gradient-to-r"][class*="from-blue-50"] {
+  background: linear-gradient(90deg, #041026 0%, #092452 50%, #041026 100%) !important;
+  border-top: 1px solid rgba(245, 176, 39, 0.35) !important;
+  border-bottom: 1.5px solid rgba(245, 176, 39, 0.35) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+div[class*="bg-gradient-to-r"][class*="from-blue-50"] span.text-blue-800,
+div[class*="bg-gradient-to-r"][class*="from-blue-50"] .text-blue-800 {
+  color: #fde047 !important;
+  text-shadow: 0 0 10px rgba(245, 176, 39, 0.45) !important;
+  font-weight: 800 !important;
+}
+
+div[class*="bg-gradient-to-r"][class*="from-blue-50"] .text-slate-700,
+div[class*="bg-gradient-to-r"][class*="from-blue-50"] .animate-marquee div {
+  color: #f8fafc !important;
+  font-weight: 500 !important;
+  font-size: 13.5px !important;
+}
+
+div[class*="bg-gradient-to-r"][class*="from-blue-50"] span.text-blue-700 {
+  color: #f5b027 !important;
+}
+
+/* ==========================================================================
+   4. HERO BANNER (TVRI MALUKU DIGITAL HUB) - FOTO INFOGRAFIS
+   ========================================================================== */
+.hero-infografis-bg,
+div[class*="pt-10"][class*="pb-12"][class*="relative"][class*="shadow-lg"],
+div[class*="bg-gradient-to-b"][class*="relative"][class*="shadow-lg"],
+div[class*="bg-gradient-to-b"][class*="from-[#06122c]"],
+div[class*="bg-gradient-to-b"][class*="from-[#0f172a]"] {
+  background-image: 
+    linear-gradient(180deg, rgba(2, 8, 28, 0.3) 0%, rgba(4, 15, 42, 0.15) 50%, rgba(2, 8, 28, 0.45) 100%),
+    url('/images/bg-infografis.png') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  border-bottom: 2px solid rgba(245, 176, 39, 0.45) !important;
+  box-shadow: inset 0 -20px 40px rgba(2, 8, 24, 0.8), 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+  position: relative !important;
+}
+
+/* Breadcrumbs */
+nav.inline-flex.bg-white\/10 {
+  background: rgba(4, 15, 36, 0.8) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.4) !important;
+  color: #cbd5e1 !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35) !important;
+}
+nav.inline-flex.bg-white\/10 a {
+  color: #e2e8f0 !important;
+}
+nav.inline-flex.bg-white\/10 a:hover {
+  color: #fde047 !important;
+}
+nav.inline-flex.bg-white\/10 span.text-amber-300,
+nav.inline-flex.bg-white\/10 span.text-amber-400,
+nav.inline-flex.bg-white\/10 span.text-cyan-300 {
+  color: #f5b027 !important;
+  font-weight: 700 !important;
+  text-shadow: 0 0 10px rgba(245, 176, 39, 0.45) !important;
+}
+
+/* Hero Main Titles */
+/* TVRI MALUKU */
+div.mb-2 span:first-child {
+  color: #ffffff !important;
+  text-shadow: 0 0 22px rgba(245, 176, 39, 0.4), 0 2px 6px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* DIGITAL HUB / SIMANDAT (Emas Murni) */
+div.mb-2 span:last-child {
+  background: linear-gradient(135deg, #fff275 0%, #f5b027 50%, #d48b0a 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  filter: drop-shadow(0 2px 10px rgba(245, 176, 39, 0.5)) !important;
+}
+
+/* Subtitle: Integrated Digital Operations Platform... */
+p.text-blue-100 {
+  color: #f8fafc !important;
+  font-size: 14.5px !important;
+  line-height: 1.75 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7) !important;
+  max-width: 52rem !important;
+}
+p.text-blue-100 b {
+  color: #fde047 !important;
+  font-weight: 700 !important;
+}
+
+/* ==========================================================================
+   5. OPD CARD: PENYELENGGARA & PRODUSEN DATA
+   ========================================================================== */
+div[class*="text-xs font-semibold text-blue-200 uppercase"] {
+  color: #fde047 !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.12em !important;
+  text-shadow: 0 0 12px rgba(245, 176, 39, 0.5) !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 > div.bg-white {
+  background: var(--blue-royal-bg) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.55) !important;
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.55), 0 0 25px rgba(245, 176, 39, 0.18) !important;
+  color: #f8fafc !important;
+}
+
+/* Header of OPD Card */
+.max-w-3xl.mx-auto.mb-8 > div.bg-white > div.flex.items-center.justify-between {
+  background: linear-gradient(90deg, rgba(14, 38, 88, 0.95) 0%, rgba(9, 24, 60, 0.98) 100%) !important;
+  border-bottom: 1.5px solid rgba(245, 176, 39, 0.35) !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 h2.text-blue-900 {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+.max-w-3xl.mx-auto.mb-8 h2.text-blue-900:hover {
+  color: #fde047 !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 span.text-slate-500 {
+  color: #cbd5e1 !important;
+  font-weight: 500 !important;
+}
+
+/* "Unit Lain" Button */
+.max-w-3xl.mx-auto.mb-8 button.bg-blue-50.text-blue-700 {
+  background: linear-gradient(135deg, rgba(245, 176, 39, 0.2), rgba(30, 64, 175, 0.35)) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.6) !important;
+  color: #fde047 !important;
+  font-weight: 700 !important;
+  transition: all 0.2s ease !important;
+}
+.max-w-3xl.mx-auto.mb-8 button.bg-blue-50.text-blue-700:hover {
+  background: linear-gradient(135deg, #f5b027 0%, #d48b0a 100%) !important;
+  color: #040e1f !important;
+  border-color: #fef08a !important;
+}
+
+/* Body of OPD Card */
+.max-w-3xl.mx-auto.mb-8 div.p-4.sm\:p-6.bg-white {
+  background: transparent !important;
+  color: #f8fafc !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 div.p-4.sm\:p-6.bg-white p.text-slate-700 {
+  color: #f1f5f9 !important;
+  font-size: 13.5px !important;
+  line-height: 1.75 !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 div.w-24.h-24 {
+  background: linear-gradient(145deg, rgba(14, 38, 88, 0.75), rgba(8, 22, 54, 0.95)) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.5) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 0 12px rgba(245, 176, 39, 0.2) !important;
+}
+.max-w-3xl.mx-auto.mb-8 div.w-24.h-24 span {
+  color: #fde047 !important;
+  font-weight: 900 !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 div.text-slate-900.font-bold {
+  color: #fde047 !important;
+  letter-spacing: 0.08em !important;
+  font-weight: 800 !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 div.text-slate-600 {
+  color: #e2e8f0 !important;
+  font-size: 12.5px !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 .text-blue-700 {
+  color: #f5b027 !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 a.text-blue-700 {
+  color: #93c5fd !important;
+  font-weight: 600 !important;
+}
+.max-w-3xl.mx-auto.mb-8 a.text-blue-700:hover {
+  color: #fde047 !important;
+}
+
+.max-w-3xl.mx-auto.mb-8 .h-px.bg-slate-100 {
+  background: rgba(245, 176, 39, 0.25) !important;
+}
+
+/* ==========================================================================
+   6. SEARCH BOX & HERO STAT CARDS
+   ========================================================================== */
+/* Search box */
+div.relative.flex.items-center.bg-white\/20 {
+  background: rgba(4, 15, 36, 0.85) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.55) !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4), 0 0 15px rgba(245, 176, 39, 0.2) !important;
+}
+
+div.relative.flex.items-center.bg-white\/20:focus-within {
+  background: rgba(9, 28, 66, 0.95) !important;
+  border-color: rgba(251, 191, 36, 0.9) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 25px rgba(245, 176, 39, 0.35) !important;
+}
+
+div.relative.flex.items-center.bg-white\/20 input {
+  color: #ffffff !important;
+}
+div.relative.flex.items-center.bg-white\/20 input::placeholder {
+  color: #94a3b8 !important;
+}
+
+div.relative.flex.items-center.bg-white\/20 button.bg-amber-400 {
+  background: linear-gradient(135deg, #f5b027 0%, #d48b0a 100%) !important;
+  color: #040e1f !important;
+  font-weight: 800 !important;
+  box-shadow: 0 2px 10px rgba(245, 176, 39, 0.45) !important;
+  border: 1px solid #fef08a !important;
+}
+div.relative.flex.items-center.bg-white\/20 button.bg-amber-400:hover {
+  background: linear-gradient(135deg, #fef08a 0%, #f5b027 100%) !important;
+  box-shadow: 0 4px 16px rgba(245, 176, 39, 0.65) !important;
+}
+
+/* 4 Stat Summary Cards (Infrastruktur Data Center, Layanan Digital TVRI, dll) */
+div.flex.flex-wrap.items-center.justify-center > div.bg-white\/15 {
+  background: linear-gradient(145deg, rgba(10, 27, 66, 0.8), rgba(6, 17, 42, 0.92)) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.48) !important;
+  backdrop-filter: blur(14px) !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35) !important;
+  transition: all 0.25s ease !important;
+}
+
+div.flex.flex-wrap.items-center.justify-center > div.bg-white\/15:hover {
+  border-color: rgba(251, 191, 36, 0.85) !important;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5), 0 0 20px rgba(245, 176, 39, 0.32) !important;
+  transform: translateY(-2px) !important;
+}
+
+div.flex.flex-wrap.items-center.justify-center > div.bg-white\/15 .text-white {
+  color: #ffffff !important;
+  text-shadow: 0 0 12px rgba(245, 176, 39, 0.4) !important;
+}
+div.flex.flex-wrap.items-center.justify-center > div.bg-white\/15 .text-blue-200,
+div.flex.flex-wrap.items-center.justify-center > div.bg-white\/15 .text-amber-300,
+div.flex.flex-wrap.items-center.justify-center > div.bg-white\/15 .text-cyan-200 {
+  color: #fde047 !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.08em !important;
+  text-shadow: 0 0 8px rgba(245, 176, 39, 0.3) !important;
+}
+
+/* ==========================================================================
+   7. SIDEBAR FILTER CARD (Filter Data TVRI Maluku)
+   ========================================================================== */
+.sticky.top-24.bg-white,
+div[class*="bg-white rounded-2xl"][class*="sticky top-24"] {
+  background: var(--blue-royal-bg) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.45) !important;
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.5), 0 0 20px rgba(245, 176, 39, 0.15) !important;
+  color: #f8fafc !important;
+}
+
+.sticky.top-24 div[class*="bg-gradient-to-r"][class*="from-blue-700"] {
+  background: linear-gradient(90deg, #0c2b66 0%, #17459e 55%, #b8860b 100%) !important;
+  border-bottom: 1.5px solid rgba(245, 176, 39, 0.4) !important;
+}
+.sticky.top-24 div[class*="bg-gradient-to-r"][class*="from-blue-700"] span {
+  color: #ffffff !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.sticky.top-24 .text-blue-900 {
+  color: #fde047 !important;
+  font-weight: 800 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6) !important;
+}
+
+.sticky.top-24 input[type="text"] {
+  background: rgba(4, 13, 33, 0.88) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.35) !important;
+  color: #ffffff !important;
+}
+.sticky.top-24 input[type="text"]:focus {
+  border-color: rgba(251, 191, 36, 0.85) !important;
+  box-shadow: 0 0 12px rgba(245, 176, 39, 0.3) !important;
+  outline: none !important;
+}
+.sticky.top-24 input[type="text"]::placeholder {
+  color: #94a3b8 !important;
+}
+
+.sticky.top-24 label {
+  color: #f1f5f9 !important;
+  transition: all 0.15s ease !important;
+}
+.sticky.top-24 label:hover {
+  color: #fde047 !important;
+}
+.sticky.top-24 label span.font-bold {
+  color: #fde047 !important;
+  font-weight: 800 !important;
+}
+.sticky.top-24 input[type="checkbox"] {
+  accent-color: #f5b027 !important;
+}
+.sticky.top-24 .border-l-2.border-blue-100 {
+  border-left-color: rgba(245, 176, 39, 0.4) !important;
+}
+.sticky.top-24 .h-px.bg-slate-100,
+.sticky.top-24 .border-t.border-slate-100 {
+  border-color: rgba(245, 176, 39, 0.28) !important;
+}
+
+.sticky.top-24 button.bg-blue-50.text-blue-700 {
+  background: linear-gradient(135deg, rgba(30, 64, 175, 0.35), rgba(245, 176, 39, 0.25)) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.5) !important;
+  color: #fde047 !important;
+  font-weight: 700 !important;
+}
+.sticky.top-24 button.bg-blue-50.text-blue-700:hover {
+  background: linear-gradient(135deg, #f5b027 0%, #d48b0a 100%) !important;
+  color: #040e1f !important;
+}
+
+/* ==========================================================================
+   8. CATALOG HEADER & SORTING BUTTONS
+   ========================================================================== */
+div[class*="bg-white/90"][class*="sticky top-20"],
+div[class*="backdrop-blur-md"][class*="sticky top-20"] {
+  background: var(--blue-royal-bg) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.45) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(245, 176, 39, 0.18) !important;
+  color: #f8fafc !important;
+}
+
+div[class*="sticky top-20"] svg {
+  color: #f5b027 !important;
+}
+
+h2.text-slate-900,
+h1.text-slate-900,
+span.font-bold.text-slate-900 {
+  color: #ffffff !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) !important;
+}
+
+span.bg-blue-100.text-blue-800 {
+  background: rgba(245, 176, 39, 0.25) !important;
+  border: 1px solid rgba(245, 176, 39, 0.55) !important;
+  color: #fef08a !important;
+  font-weight: 700 !important;
+}
+
+span.text-slate-400.uppercase {
+  color: #fde047 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
+}
+
+button.bg-blue-700.text-white.font-bold {
+  background: linear-gradient(135deg, #f5b027 0%, #d48b0a 100%) !important;
+  color: #040e1f !important;
+  font-weight: 800 !important;
+  border: 1px solid #fef08a !important;
+  box-shadow: 0 2px 10px rgba(245, 176, 39, 0.4) !important;
+}
+
+button.bg-slate-100.text-slate-700,
+button.bg-slate-100 {
+  background: rgba(8, 24, 58, 0.85) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.32) !important;
+  color: #cbd5e1 !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+}
+button.bg-slate-100.text-slate-700:hover,
+button.bg-slate-100:hover {
+  background: rgba(14, 38, 88, 0.95) !important;
+  border-color: rgba(251, 191, 36, 0.7) !important;
+  color: #fde047 !important;
+}
+
+/* ==========================================================================
+   9. DATASET CARDS (Katalog Dataset List)
+   ========================================================================== */
+div[class*="bg-white rounded-2xl border border-blue-100"] {
+  background: var(--blue-royal-bg) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.4) !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4) !important;
+  color: #f8fafc !important;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+div[class*="bg-white rounded-2xl border border-blue-100"]:hover {
+  border-color: rgba(251, 191, 36, 0.85) !important;
+  box-shadow: 0 14px 38px rgba(0, 0, 0, 0.55), 0 0 25px rgba(245, 176, 39, 0.25) !important;
+  transform: translateY(-2px) !important;
+}
+
+div[class*="w-14 h-14"][class*="rounded-xl"] {
+  background: linear-gradient(145deg, rgba(14, 38, 88, 0.85), rgba(8, 22, 54, 0.98)) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.45) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4), 0 0 10px rgba(245, 176, 39, 0.18) !important;
+}
+div[class*="w-14 h-14"] svg {
+  color: #f5b027 !important;
+}
+div[class*="w-14 h-14"] span {
+  color: #fde047 !important;
+  font-weight: 900 !important;
+}
+
+h3.text-blue-900 {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  font-size: 16.5px !important;
+  line-height: 1.4 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+  transition: color 0.2s ease !important;
+}
+h3.text-blue-900:hover {
+  color: #fde047 !important;
+  text-shadow: 0 0 10px rgba(245, 176, 39, 0.5) !important;
+}
+
+div[class*="rounded-full"][class*="bg-slate-50"] {
+  background: rgba(6, 19, 46, 0.88) !important;
+  border: 1px solid rgba(245, 176, 39, 0.4) !important;
+  color: #fef08a !important;
+  font-weight: 700 !important;
+}
+
+span.truncate {
+  color: #93c5fd !important;
+  font-weight: 600 !important;
+}
+
+span.bg-blue-50.text-blue-800 {
+  background: rgba(30, 64, 175, 0.35) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.42) !important;
+  color: #fef08a !important;
+  font-weight: 700 !important;
+}
+span.bg-amber-50.text-amber-800 {
+  background: rgba(245, 176, 39, 0.25) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.55) !important;
+  color: #fde047 !important;
+  font-weight: 700 !important;
+}
+
+.text-slate-500 {
+  color: #cbd5e1 !important;
+}
+span.font-mono.text-slate-500 {
+  color: #fef08a !important;
+  font-weight: 700 !important;
+}
+
+.h-px.bg-slate-100 {
+  background: rgba(245, 176, 39, 0.22) !important;
+}
+
+p.text-slate-600 {
+  color: #e2e8f0 !important;
+  font-size: 13px !important;
+  line-height: 1.65 !important;
+}
+
+span.text-slate-500.hover\:text-blue-700 {
+  color: #fde047 !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+}
+span.text-slate-500.hover\:text-blue-700:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(245, 176, 39, 0.55) !important;
+}
+
+button.text-slate-600.hover\:text-slate-900 {
+  background: rgba(14, 38, 88, 0.8) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.4) !important;
+  color: #e2e8f0 !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+}
+button.text-slate-600.hover\:text-slate-900:hover {
+  background: rgba(245, 176, 39, 0.3) !important;
+  color: #fde047 !important;
+  border-color: rgba(251, 191, 36, 0.75) !important;
+}
+
+button.bg-blue-50.text-blue-700 {
+  background: linear-gradient(135deg, #1e40af 0%, #1d4ed8 100%) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.6) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(245, 176, 39, 0.2) !important;
+  transition: all 0.25s ease !important;
+}
+button.bg-blue-50.text-blue-700:hover {
+  background: linear-gradient(135deg, #f5b027 0%, #d48b0a 100%) !important;
+  color: #040e1f !important;
+  font-weight: 800 !important;
+  border-color: #fef08a !important;
+  box-shadow: 0 4px 18px rgba(245, 176, 39, 0.55) !important;
+}
+
+div.border-t.border-slate-200 {
+  border-top-color: rgba(245, 176, 39, 0.35) !important;
+  color: #cbd5e1 !important;
+}
+
+/* ==========================================================================
+   10. MODAL DIALOGS (Dataset Details, Tables, Charts, Metadata)
+   ========================================================================== */
+.fixed.inset-0.z-50.bg-black\/60 {
+  background: rgba(2, 8, 20, 0.8) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+.fixed.inset-0.z-50 .bg-white.rounded-2xl {
+  background: linear-gradient(160deg, #09214e 0%, #051433 100%) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.5) !important;
+  box-shadow: 0 25px 65px rgba(0, 0, 0, 0.8), 0 0 35px rgba(245, 176, 39, 0.22) !important;
+  color: #f8fafc !important;
+}
+
+.fixed.inset-0.z-50 .bg-slate-50\/70,
+.fixed.inset-0.z-50 .bg-slate-50,
+.fixed.inset-0.z-50 div[class*="bg-gradient-to-r"][class*="from-blue-50"] {
+  background: linear-gradient(90deg, rgba(14, 38, 88, 0.95), rgba(9, 25, 60, 0.98)) !important;
+  border-bottom: 1.5px solid rgba(245, 176, 39, 0.4) !important;
+  color: #ffffff !important;
+}
+
+.fixed.inset-0.z-50 h2,
+.fixed.inset-0.z-50 h3,
+.fixed.inset-0.z-50 h4 {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6) !important;
+}
+
+.fixed.inset-0.z-50 .border-b.border-slate-200.bg-white {
+  background: rgba(6, 17, 43, 0.85) !important;
+  border-bottom: 1.5px solid rgba(245, 176, 39, 0.35) !important;
+}
+.fixed.inset-0.z-50 .border-b.border-slate-200.bg-white button {
+  color: #cbd5e1 !important;
+}
+.fixed.inset-0.z-50 .border-b.border-slate-200.bg-white button.border-blue-700 {
+  color: #fde047 !important;
+  border-bottom-color: #f5b027 !important;
+  font-weight: 800 !important;
+}
+
+.fixed.inset-0.z-50 .bg-slate-50\/50,
+.fixed.inset-0.z-50 .bg-slate-50 {
+  background: rgba(4, 12, 30, 0.75) !important;
+  color: #f8fafc !important;
+}
+
+.fixed.inset-0.z-50 table {
+  background: rgba(5, 16, 40, 0.88) !important;
+  border: 1px solid rgba(245, 176, 39, 0.35) !important;
+  color: #f8fafc !important;
+}
+
+.fixed.inset-0.z-50 thead tr {
+  background: rgba(14, 38, 88, 0.95) !important;
+  border-bottom: 1.5px solid rgba(245, 176, 39, 0.4) !important;
+  color: #fde047 !important;
+}
+
+.fixed.inset-0.z-50 tbody tr {
+  border-bottom: 1px solid rgba(245, 176, 39, 0.18) !important;
+  color: #f1f5f9 !important;
+}
+.fixed.inset-0.z-50 tbody tr:hover {
+  background: rgba(30, 64, 175, 0.32) !important;
+}
+
+.fixed.inset-0.z-50 td.font-mono,
+.fixed.inset-0.z-50 td.text-slate-900 {
+  color: #fef08a !important;
+  font-weight: 700 !important;
+}
+
+.fixed.inset-0.z-50 .bg-white.p-4.rounded-xl,
+.fixed.inset-0.z-50 .bg-white.p-5,
+.fixed.inset-0.z-50 .bg-white.rounded-2xl {
+  background: var(--blue-royal-bg) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.35) !important;
+  color: #f8fafc !important;
+}
+
+.fixed.inset-0.z-50 input.bg-white {
+  background: rgba(4, 13, 33, 0.92) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.4) !important;
+  color: #ffffff !important;
+}
+
+.fixed.inset-0.z-50 .bg-amber-50 {
+  background: rgba(245, 176, 39, 0.2) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.5) !important;
+  color: #fef08a !important;
+}
+.fixed.inset-0.z-50 .bg-blue-50 {
+  background: rgba(30, 64, 175, 0.28) !important;
+  border: 1.5px solid rgba(96, 165, 250, 0.45) !important;
+  color: #e0f2fe !important;
+}
+
+.fixed.inset-0.z-50 div.border-t.border-slate-100 {
+  background: rgba(6, 17, 43, 0.96) !important;
+  border-top: 1.5px solid rgba(245, 176, 39, 0.35) !important;
+  color: #cbd5e1 !important;
+}
+
+.fixed.inset-0.z-50 button.bg-slate-900 {
+  background: linear-gradient(135deg, #1e40af 0%, #0f2757 100%) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.5) !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+.fixed.inset-0.z-50 button.bg-slate-900:hover {
+  background: linear-gradient(135deg, #f5b027 0%, #d48b0a 100%) !important;
+  color: #040e1f !important;
+}
+
+/* ==========================================================================
+   11. FLOATING ACTION BUTTON & POPUP MENU
+   ========================================================================== */
+button[title*="disabilitas"] {
+  background: linear-gradient(135deg, #1e40af 0%, #f5b027 100%) !important;
+  border: 2px solid #fef08a !important;
+  box-shadow: 0 4px 22px rgba(245, 176, 39, 0.5), 0 0 18px rgba(30, 64, 175, 0.5) !important;
+}
+button[title*="disabilitas"]:hover {
+  box-shadow: 0 6px 30px rgba(245, 176, 39, 0.7), 0 0 25px rgba(30, 64, 175, 0.65) !important;
+  transform: scale(1.08) !important;
+}
+
+div.fixed.bottom-6.right-6 > div.bg-white {
+  background: linear-gradient(160deg, #0a214d 0%, #061533 100%) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.5) !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.75), 0 0 20px rgba(245, 176, 39, 0.25) !important;
+  color: #f8fafc !important;
+}
+div.fixed.bottom-6.right-6 > div.bg-white button {
+  color: #e2e8f0 !important;
+}
+div.fixed.bottom-6.right-6 > div.bg-white button:hover {
+  background: rgba(30, 64, 175, 0.35) !important;
+  color: #fde047 !important;
+}
+div.fixed.bottom-6.right-6 > div.bg-white .font-bold {
+  color: #ffffff !important;
+}
+div.fixed.bottom-6.right-6 > div.bg-white .text-slate-500 {
+  color: #cbd5e1 !important;
+}
+
+/* ==========================================================================
+   12. FOOTER
+   ========================================================================== */
+footer {
+  background: linear-gradient(180deg, #041026 0%, #020712 50%, #01040a 100%) !important;
+  border-top: 2px solid rgba(245, 176, 39, 0.45) !important;
+  box-shadow: 0 -10px 35px rgba(0, 0, 0, 0.6) !important;
+}
+
+footer .border-b.border-white\/15 {
+  border-bottom-color: rgba(245, 176, 39, 0.28) !important;
+}
+
+footer .bg-black\/30 {
+  background: linear-gradient(145deg, rgba(10, 27, 66, 0.88), rgba(6, 17, 43, 0.95)) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.4) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
+}
+
+footer .text-xl,
+footer .text-2xl {
+  color: #ffffff !important;
+  text-shadow: 0 0 10px rgba(245, 176, 39, 0.4) !important;
+}
+
+footer .text-amber-300 {
+  color: #fde047 !important;
+}
+
+footer .text-blue-200\/80,
+footer .text-blue-200\/90 {
+  color: #cbd5e1 !important;
+}
+
+footer a.bg-white\/10 {
+  background: rgba(14, 38, 88, 0.75) !important;
+  border: 1.5px solid rgba(245, 176, 39, 0.4) !important;
+  color: #ffffff !important;
+}
+footer a.bg-white\/10:hover {
+  background: rgba(245, 176, 39, 0.3) !important;
+  color: #fde047 !important;
+  border-color: rgba(251, 191, 36, 0.75) !important;
+}
+
+/* ==========================================================================
+   FLOATING ACTION BUTTON (HIDE TOGA / DISABILITAS FAB)
+   ========================================================================== */
+.fixed.bottom-6.right-6.z-40,
+div[class*="fixed bottom-"][class*="z-40"] {
+  display: none !important;
+}
+

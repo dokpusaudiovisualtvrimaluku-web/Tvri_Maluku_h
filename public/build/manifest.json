@@ -1,0 +1,33 @@
+{
+  "_index-DhXgJQ-f.js": {
+    "file": "assets/index-DhXgJQ-f.js",
+    "name": "index"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BDIj7u3l.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-D_MsKvSf.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_index-DhXgJQ-f.js"
+    ]
+  },
+  "resources/js/react-dashboard.jsx": {
+    "file": "assets/react-dashboard-BwHDfg1x.js",
+    "name": "react-dashboard",
+    "src": "resources/js/react-dashboard.jsx",
+    "isEntry": true,
+    "imports": [
+      "_index-DhXgJQ-f.js"
+    ]
+  }
+}

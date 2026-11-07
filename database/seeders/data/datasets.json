@@ -1,0 +1,873 @@
+[
+  {
+    "id": 101,
+    "slug": "data-jaringan-stasiun-transmisi-pemancar-digital-tvri-maluku",
+    "title": "Data Jaringan Stasiun Pemancar & Transmisi Digital se-Provinsi Maluku",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Teknik Transmisi",
+    "urusanId": 8,
+    "date": "28 Maret 2026",
+    "views": 520,
+    "downloads": 240,
+    "description": "Monitoring operasional stasiun pemancar terestrial digital (DVB-T2), frekuensi, kanal frekuensi, alokasi daya pemancar (kW), cakupan siaran, dan status keandalan teknis siaran TVRI Maluku.",
+    "tags": [
+      "transmisi",
+      "teknik",
+      "dvb-t2",
+      "pemancar",
+      "tvri"
+    ],
+    "columns": [
+      "Nama Pemancar",
+      "Wilayah / Kabupaten",
+      "Frekuensi",
+      "Kanal",
+      "Daya (kW)",
+      "Cakupan Siaran",
+      "Status Operasional",
+      "Indeks Kualitas"
+    ],
+    "rows": [
+      {
+        "Nama Pemancar": "TX Ambon",
+        "Wilayah / Kabupaten": "Kota Ambon",
+        "Frekuensi": "CH 28 (530 MHz)",
+        "Kanal": "Kanal 28",
+        "Daya (kW)": 5,
+        "Cakupan Siaran": "Kota Ambon & P. Ambon",
+        "Status Operasional": "On-Air (Normal)",
+        "Indeks Kualitas": "4.8 / 5.0"
+      },
+      {
+        "Nama Pemancar": "TX Ternate",
+        "Wilayah / Kabupaten": "Kota Ternate",
+        "Frekuensi": "CH 32 (562 MHz)",
+        "Kanal": "Kanal 32",
+        "Daya (kW)": 5,
+        "Cakupan Siaran": "Ternate & Tidore",
+        "Status Operasional": "On-Air (Normal)",
+        "Indeks Kualitas": "4.7 / 5.0"
+      },
+      {
+        "Nama Pemancar": "TX Masohi",
+        "Wilayah / Kabupaten": "Kab. Maluku Tengah",
+        "Frekuensi": "CH 30 (546 MHz)",
+        "Kanal": "Kanal 30",
+        "Daya (kW)": 2,
+        "Cakupan Siaran": "Maluku Tengah & Saparua",
+        "Status Operasional": "On-Air (Normal)",
+        "Indeks Kualitas": "4.5 / 5.0"
+      },
+      {
+        "Nama Pemancar": "TX Namlea",
+        "Wilayah / Kabupaten": "Kab. Buru",
+        "Frekuensi": "CH 26 (514 MHz)",
+        "Kanal": "Kanal 26",
+        "Daya (kW)": 1,
+        "Cakupan Siaran": "Kabupaten Buru",
+        "Status Operasional": "On-Air (Normal)",
+        "Indeks Kualitas": "4.4 / 5.0"
+      },
+      {
+        "Nama Pemancar": "TX Saumlaki",
+        "Wilayah / Kabupaten": "Kep. Tanimbar",
+        "Frekuensi": "CH 29 (538 MHz)",
+        "Kanal": "Kanal 29",
+        "Daya (kW)": 2,
+        "Cakupan Siaran": "Kepulauan Tanimbar",
+        "Status Operasional": "On-Air (Normal)",
+        "Indeks Kualitas": "4.6 / 5.0"
+      },
+      {
+        "Nama Pemancar": "TX Dobo",
+        "Wilayah / Kabupaten": "Kep. Aru",
+        "Frekuensi": "CH 27 (522 MHz)",
+        "Kanal": "Kanal 27",
+        "Daya (kW)": 1,
+        "Cakupan Siaran": "Kepulauan Aru",
+        "Status Operasional": "On-Air (Normal)",
+        "Indeks Kualitas": "4.3 / 5.0"
+      },
+      {
+        "Nama Pemancar": "TX Sanana",
+        "Wilayah / Kabupaten": "Kep. Sula",
+        "Frekuensi": "CH 25 (506 MHz)",
+        "Kanal": "Kanal 25",
+        "Daya (kW)": 1,
+        "Cakupan Siaran": "Kepulauan Sula",
+        "Status Operasional": "Maintenance Terjadwal",
+        "Indeks Kualitas": "3.9 / 5.0"
+      },
+      {
+        "Nama Pemancar": "TX Bula",
+        "Wilayah / Kabupaten": "Seram Bagian Timur",
+        "Frekuensi": "CH 31 (554 MHz)",
+        "Kanal": "Kanal 31",
+        "Daya (kW)": 1,
+        "Cakupan Siaran": "Seram Bagian Timur",
+        "Status Operasional": "On-Air (Normal)",
+        "Indeks Kualitas": "4.5 / 5.0"
+      },
+      {
+        "Nama Pemancar": "TX Morotai",
+        "Wilayah / Kabupaten": "Kab. Pulau Morotai",
+        "Frekuensi": "CH 33 (570 MHz)",
+        "Kanal": "Kanal 33",
+        "Daya (kW)": 1,
+        "Cakupan Siaran": "Kab. Pulau Morotai",
+        "Status Operasional": "On-Air (Normal)",
+        "Indeks Kualitas": "4.2 / 5.0"
+      }
+    ],
+    "chartConfig": {
+      "type": "bar",
+      "labelKey": "Nama Pemancar",
+      "valueKeys": [
+        "Daya (kW)"
+      ],
+      "colors": [
+        "#0284c7"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "slug": "data-jadwal-produksi-program-siaran-tvri-maluku",
+    "title": "Data Produksi & Jadwal Penayangan Program Siaran TVRI Stasiun Maluku",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Program",
+    "urusanId": 3,
+    "date": "25 Maret 2026",
+    "views": 480,
+    "downloads": 210,
+    "description": "Katalog dan rencana produksi program siaran televisi TVRI Maluku meliputi program berita, dialog interaktif publik, warta seni budaya kepulauan, dan edukasi masyarakat.",
+    "tags": [
+      "program",
+      "siaran",
+      "produksi",
+      "tvri",
+      "budaya"
+    ],
+    "columns": [
+      "Judul Program",
+      "Kategori",
+      "Tahapan Produksi",
+      "Jadwal Tayang",
+      "Status Siaran",
+      "Penanggung Jawab",
+      "Estimasi Pemirsa"
+    ],
+    "rows": [
+      {
+        "Judul Program": "Maluku Hari Ini",
+        "Kategori": "Berita Utama",
+        "Tahapan Produksi": "Siaran Langsung",
+        "Jadwal Tayang": "Senin - Sabtu 17:00 WIT",
+        "Status Siaran": "Tayang Aktif",
+        "Penanggung Jawab": "Tim Berita",
+        "Estimasi Pemirsa": 1200000
+      },
+      {
+        "Judul Program": "Pesona Maluku",
+        "Kategori": "Pariwisata & Budaya",
+        "Tahapan Produksi": "Pasca Produksi",
+        "Jadwal Tayang": "Minggu 19:30 WIT",
+        "Status Siaran": "Tayang Aktif",
+        "Penanggung Jawab": "Tim Program",
+        "Estimasi Pemirsa": 1050000
+      },
+      {
+        "Judul Program": "Dialog Maluku",
+        "Kategori": "Talkshow & Opini",
+        "Tahapan Produksi": "Studio Live",
+        "Jadwal Tayang": "Selasa & Kamis 20:00 WIT",
+        "Status Siaran": "Tayang Aktif",
+        "Penanggung Jawab": "Tim Berita",
+        "Estimasi Pemirsa": 900000
+      },
+      {
+        "Judul Program": "Maluku Belajar",
+        "Kategori": "Edukasi & Remaja",
+        "Tahapan Produksi": "Pra Produksi",
+        "Jadwal Tayang": "Rabu 15:00 WIT",
+        "Status Siaran": "On Schedule",
+        "Penanggung Jawab": "Tim Program",
+        "Estimasi Pemirsa": 750000
+      },
+      {
+        "Judul Program": "Jejak Budaya Kepulauan",
+        "Kategori": "Dokumenter",
+        "Tahapan Produksi": "Produksi Lapangan",
+        "Jadwal Tayang": "Sabtu 20:30 WIT",
+        "Status Siaran": "Dalam Produksi",
+        "Penanggung Jawab": "Tim Program",
+        "Estimasi Pemirsa": 850000
+      },
+      {
+        "Judul Program": "Mimbar Agama & Damai Maluku",
+        "Kategori": "Religi & Sosial",
+        "Tahapan Produksi": "Studio Record",
+        "Jadwal Tayang": "Jumat & Minggu 06:00 WIT",
+        "Status Siaran": "Tayang Aktif",
+        "Penanggung Jawab": "Tim Program",
+        "Estimasi Pemirsa": 600000
+      }
+    ],
+    "chartConfig": {
+      "type": "bar",
+      "labelKey": "Judul Program",
+      "valueKeys": [
+        "Estimasi Pemirsa"
+      ],
+      "colors": [
+        "#10b981"
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "slug": "data-peliputan-produksi-berita-newsroom-tvri-maluku",
+    "title": "Data Liputan & Produksi Berita Harian Newsroom TVRI Maluku",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Berita",
+    "urusanId": 2,
+    "date": "20 Maret 2026",
+    "views": 415,
+    "downloads": 185,
+    "description": "Distribusi peliputan berita daerah, pemerintahan, sosial kemasyarakatan, ekonomi kerakyatan, dan peristiwa aktual di seluruh kabupaten/kota oleh jurnalis TVRI Maluku.",
+    "tags": [
+      "berita",
+      "newsroom",
+      "liputan",
+      "jurnalisme",
+      "tvri"
+    ],
+    "columns": [
+      "Wilayah Liputan",
+      "Berita Pemerintahan",
+      "Sosial & Budaya",
+      "Ekonomi & UMKM",
+      "Aktual & Breaking",
+      "Total Berita Ditayangkan"
+    ],
+    "rows": [
+      {
+        "Wilayah Liputan": "Kota Ambon",
+        "Berita Pemerintahan": 32,
+        "Sosial & Budaya": 28,
+        "Ekonomi & UMKM": 18,
+        "Aktual & Breaking": 12,
+        "Total Berita Ditayangkan": 90
+      },
+      {
+        "Wilayah Liputan": "Kab. Maluku Tengah",
+        "Berita Pemerintahan": 24,
+        "Sosial & Budaya": 20,
+        "Ekonomi & UMKM": 14,
+        "Aktual & Breaking": 8,
+        "Total Berita Ditayangkan": 66
+      },
+      {
+        "Wilayah Liputan": "Kab. Seram Bagian Barat",
+        "Berita Pemerintahan": 18,
+        "Sosial & Budaya": 15,
+        "Ekonomi & UMKM": 11,
+        "Aktual & Breaking": 5,
+        "Total Berita Ditayangkan": 49
+      },
+      {
+        "Wilayah Liputan": "Kab. Seram Bagian Timur",
+        "Berita Pemerintahan": 16,
+        "Sosial & Budaya": 14,
+        "Ekonomi & UMKM": 9,
+        "Aktual & Breaking": 4,
+        "Total Berita Ditayangkan": 43
+      },
+      {
+        "Wilayah Liputan": "Kab. Buru & Buru Selatan",
+        "Berita Pemerintahan": 20,
+        "Sosial & Budaya": 16,
+        "Ekonomi & UMKM": 12,
+        "Aktual & Breaking": 6,
+        "Total Berita Ditayangkan": 54
+      },
+      {
+        "Wilayah Liputan": "Kab. Maluku Tenggara & Kota Tual",
+        "Berita Pemerintahan": 22,
+        "Sosial & Budaya": 19,
+        "Ekonomi & UMKM": 13,
+        "Aktual & Breaking": 7,
+        "Total Berita Ditayangkan": 61
+      },
+      {
+        "Wilayah Liputan": "Kab. Kepulauan Aru",
+        "Berita Pemerintahan": 15,
+        "Sosial & Budaya": 12,
+        "Ekonomi & UMKM": 8,
+        "Aktual & Breaking": 4,
+        "Total Berita Ditayangkan": 39
+      },
+      {
+        "Wilayah Liputan": "Kab. Kepulauan Tanimbar",
+        "Berita Pemerintahan": 16,
+        "Sosial & Budaya": 14,
+        "Ekonomi & UMKM": 9,
+        "Aktual & Breaking": 5,
+        "Total Berita Ditayangkan": 44
+      },
+      {
+        "Wilayah Liputan": "Kab. Maluku Barat Daya",
+        "Berita Pemerintahan": 14,
+        "Sosial & Budaya": 11,
+        "Ekonomi & UMKM": 7,
+        "Aktual & Breaking": 3,
+        "Total Berita Ditayangkan": 35
+      }
+    ],
+    "chartConfig": {
+      "type": "grouped-bar",
+      "labelKey": "Wilayah Liputan",
+      "valueKeys": [
+        "Berita Pemerintahan",
+        "Sosial & Budaya",
+        "Ekonomi & UMKM"
+      ],
+      "colors": [
+        "#1e40af",
+        "#0284c7",
+        "#f59e0b"
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "slug": "data-distribusi-performa-konten-media-baru-tvri-maluku",
+    "title": "Data Distribusi & Performa Konten Multiplatform Media Baru TVRI Maluku",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Konten Media Baru",
+    "urusanId": 4,
+    "date": "18 Maret 2026",
+    "views": 390,
+    "downloads": 170,
+    "description": "Statistik penayangan video, engagement penonton, jangkauan digital, dan produksi konten multiplatform pada YouTube, Instagram, TikTok, dan Portal Berita TVRI Maluku.",
+    "tags": [
+      "konten-media-baru",
+      "digital",
+      "youtube",
+      "tiktok",
+      "social-media"
+    ],
+    "columns": [
+      "Platform Digital",
+      "Jumlah Konten",
+      "Total Tayangan (Views)",
+      "Jangkauan (Reach)",
+      "Keterlibatan (Engagement)",
+      "Rata-rata Durasi (Menit)"
+    ],
+    "rows": [
+      {
+        "Platform Digital": "YouTube TVRI Maluku",
+        "Jumlah Konten": 256,
+        "Total Tayangan (Views)": 3450000,
+        "Jangkauan (Reach)": 1850000,
+        "Keterlibatan (Engagement)": 245000,
+        "Rata-rata Durasi (Menit)": 14.5
+      },
+      {
+        "Platform Digital": "Instagram @tvri_maluku",
+        "Jumlah Konten": 412,
+        "Total Tayangan (Views)": 2120000,
+        "Jangkauan (Reach)": 1420000,
+        "Keterlibatan (Engagement)": 310000,
+        "Rata-rata Durasi (Menit)": 2.8
+      },
+      {
+        "Platform Digital": "TikTok @tvri.maluku",
+        "Jumlah Konten": 320,
+        "Total Tayangan (Views)": 4850000,
+        "Jangkauan (Reach)": 2900000,
+        "Keterlibatan (Engagement)": 520000,
+        "Rata-rata Durasi (Menit)": 1.6
+      },
+      {
+        "Platform Digital": "Portal Berita Web TVRI",
+        "Jumlah Konten": 580,
+        "Total Tayangan (Views)": 1280000,
+        "Jangkauan (Reach)": 890000,
+        "Keterlibatan (Engagement)": 140000,
+        "Rata-rata Durasi (Menit)": 4.2
+      }
+    ],
+    "chartConfig": {
+      "type": "bar",
+      "labelKey": "Platform Digital",
+      "valueKeys": [
+        "Total Tayangan (Views)"
+      ],
+      "colors": [
+        "#8b5cf6"
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "slug": "data-materi-promosi-kampanye-penyiaran-tvri-maluku",
+    "title": "Data Materi Promo Penyiaran, Bumper Program & Kampanye Layanan Publik",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Promo",
+    "urusanId": 5,
+    "date": "15 Maret 2026",
+    "views": 330,
+    "downloads": 145,
+    "description": "Kompilasi materi promosi penyiaran, identitas audio-visual stasiun (Station ID), bumper program, dan Iklan Layanan Masyarakat (ILM) edukatif TVRI Maluku.",
+    "tags": [
+      "promo",
+      "teaser",
+      "ilm",
+      "branding",
+      "tvri"
+    ],
+    "columns": [
+      "Kategori Promo",
+      "Jumlah Judul",
+      "Durasi Rata-rata (Detik)",
+      "Status Aktif Siar",
+      "Media Distribusi"
+    ],
+    "rows": [
+      {
+        "Kategori Promo": "Teaser & Trailer Program",
+        "Jumlah Judul": 28,
+        "Durasi Rata-rata (Detik)": 30,
+        "Status Aktif Siar": "24 Judul Tayang",
+        "Media Distribusi": "TV Terestrial & Sosmed"
+      },
+      {
+        "Kategori Promo": "Iklan Layanan Masyarakat (ILM)",
+        "Jumlah Judul": 18,
+        "Durasi Rata-rata (Detik)": 60,
+        "Status Aktif Siar": "15 Judul Tayang",
+        "Media Distribusi": "TV On-Air & Digital"
+      },
+      {
+        "Kategori Promo": "Station ID & Bumper Siaran",
+        "Jumlah Judul": 12,
+        "Durasi Rata-rata (Detik)": 15,
+        "Status Aktif Siar": "12 Judul Tayang",
+        "Media Distribusi": "Transmisi Terestrial"
+      },
+      {
+        "Kategori Promo": "Promo Event & Budaya Maluku",
+        "Jumlah Judul": 15,
+        "Durasi Rata-rata (Detik)": 45,
+        "Status Aktif Siar": "11 Judul Tayang",
+        "Media Distribusi": "Multiplatform Digital"
+      },
+      {
+        "Kategori Promo": "Kampanye Digital Multiplatform",
+        "Jumlah Judul": 24,
+        "Durasi Rata-rata (Detik)": 30,
+        "Status Aktif Siar": "20 Judul Tayang",
+        "Media Distribusi": "YouTube & Instagram"
+      }
+    ],
+    "chartConfig": {
+      "type": "bar",
+      "labelKey": "Kategori Promo",
+      "valueKeys": [
+        "Jumlah Judul"
+      ],
+      "colors": [
+        "#ec4899"
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "slug": "data-inventarisasi-sarana-prasarana-aset-tvri-maluku",
+    "title": "Data Inventaris Sarana Prasarana, Gedung & Aset Operasional TVRI Maluku",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Umum",
+    "urusanId": 6,
+    "date": "12 Maret 2026",
+    "views": 360,
+    "downloads": 160,
+    "description": "Inventarisasi aset fisik Barang Milik Negara (BMN), sarana gedung studio produksi, fasilitas rumah dinas pemancar, genset darurat, dan armada kendaraan penyiaran.",
+    "tags": [
+      "umum",
+      "aset",
+      "sarpras",
+      "bmn",
+      "operasional"
+    ],
+    "columns": [
+      "Kategori Aset / Sarpras",
+      "Jumlah Unit",
+      "Kondisi Baik",
+      "Kondisi Rusak Ringan",
+      "Kondisi Rusak Berat",
+      "Lokasi Penempatan"
+    ],
+    "rows": [
+      {
+        "Kategori Aset / Sarpras": "Gedung Kantor & Ruang Studio",
+        "Jumlah Unit": 6,
+        "Kondisi Baik": 5,
+        "Kondisi Rusak Ringan": 1,
+        "Kondisi Rusak Berat": 0,
+        "Lokasi Penempatan": "Kompleks TVRI Ambon"
+      },
+      {
+        "Kategori Aset / Sarpras": "Tower Pemancar & Shelter TX",
+        "Jumlah Unit": 28,
+        "Kondisi Baik": 25,
+        "Kondisi Rusak Ringan": 3,
+        "Kondisi Rusak Berat": 0,
+        "Lokasi Penempatan": "28 Site Se-Maluku"
+      },
+      {
+        "Kategori Aset / Sarpras": "Kendaraan OB Van & Operasional",
+        "Jumlah Unit": 24,
+        "Kondisi Baik": 20,
+        "Kondisi Rusak Ringan": 3,
+        "Kondisi Rusak Berat": 1,
+        "Lokasi Penempatan": "Ambon & Loka Daerah"
+      },
+      {
+        "Kategori Aset / Sarpras": "Genset Daya Darurat (KVA Tinggi)",
+        "Jumlah Unit": 16,
+        "Kondisi Baik": 14,
+        "Kondisi Rusak Ringan": 2,
+        "Kondisi Rusak Berat": 0,
+        "Lokasi Penempatan": "Studio & Site Transmisi"
+      },
+      {
+        "Kategori Aset / Sarpras": "Perlengkapan Kerja Kantor",
+        "Jumlah Unit": 820,
+        "Kondisi Baik": 760,
+        "Kondisi Rusak Ringan": 48,
+        "Kondisi Rusak Berat": 12,
+        "Lokasi Penempatan": "Seluruh Bidang & Unit"
+      }
+    ],
+    "chartConfig": {
+      "type": "grouped-bar",
+      "labelKey": "Kategori Aset / Sarpras",
+      "valueKeys": [
+        "Kondisi Baik",
+        "Kondisi Rusak Ringan"
+      ],
+      "colors": [
+        "#10b981",
+        "#f59e0b"
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "slug": "data-kesiapan-peralatan-teknik-studio-master-control",
+    "title": "Data Kesiapan Peralatan Teknis Studio, Audio & Sistem Pasca Produksi",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Teknik",
+    "urusanId": 7,
+    "date": "10 Maret 2026",
+    "views": 340,
+    "downloads": 150,
+    "description": "Kesiapan operasional perangkat keras broadcast studio, kamera 4K/HD, switcher video Master Control Room (MCR), tata suara audio console, dan workstation editing.",
+    "tags": [
+      "teknik",
+      "studio",
+      "broadcast",
+      "mcr",
+      "kamera"
+    ],
+    "columns": [
+      "Jenis Perangkat Studio",
+      "Total Unit",
+      "Unit Siap Siar",
+      "Unit Pemeliharaan",
+      "Tingkat Kesiapan (%)"
+    ],
+    "rows": [
+      {
+        "Jenis Perangkat Studio": "Kamera Broadcast Studio 4K/HD",
+        "Total Unit": 24,
+        "Unit Siap Siar": 22,
+        "Unit Pemeliharaan": 2,
+        "Tingkat Kesiapan (%)": 91.7
+      },
+      {
+        "Jenis Perangkat Studio": "Video Switcher & MCR Automation",
+        "Total Unit": 4,
+        "Unit Siap Siar": 4,
+        "Unit Pemeliharaan": 0,
+        "Tingkat Kesiapan (%)": 100
+      },
+      {
+        "Jenis Perangkat Studio": "Audio Console & Microphones System",
+        "Total Unit": 18,
+        "Unit Siap Siar": 17,
+        "Unit Pemeliharaan": 1,
+        "Tingkat Kesiapan (%)": 94.4
+      },
+      {
+        "Jenis Perangkat Studio": "Workstation Editing & Color Grading",
+        "Total Unit": 14,
+        "Unit Siap Siar": 13,
+        "Unit Pemeliharaan": 1,
+        "Tingkat Kesiapan (%)": 92.9
+      },
+      {
+        "Jenis Perangkat Studio": "Central Storage & Ingest Server",
+        "Total Unit": 8,
+        "Unit Siap Siar": 7,
+        "Unit Pemeliharaan": 1,
+        "Tingkat Kesiapan (%)": 87.5
+      },
+      {
+        "Jenis Perangkat Studio": "Peralatan OB Van Siaran Luar",
+        "Total Unit": 6,
+        "Unit Siap Siar": 5,
+        "Unit Pemeliharaan": 1,
+        "Tingkat Kesiapan (%)": 83.3
+      }
+    ],
+    "chartConfig": {
+      "type": "bar",
+      "labelKey": "Jenis Perangkat Studio",
+      "valueKeys": [
+        "Unit Siap Siar"
+      ],
+      "colors": [
+        "#3b82f6"
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "slug": "data-tata-naskah-dinas-persuratan-tata-usaha-tvri-maluku",
+    "title": "Data Tata Naskah Dinas, Surat Masuk & Pengarsipan Digital Tata Usaha",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Tata Usaha",
+    "urusanId": 1,
+    "date": "08 Maret 2026",
+    "views": 375,
+    "downloads": 165,
+    "description": "Pencatatan korespondensi naskah dinas, registrasi surat masuk eksternal, penerbitan surat keluar dinas, alur disposisi pimpinan, dan kearsipan elektronik TVRI Maluku.",
+    "tags": [
+      "tata-usaha",
+      "persuratan",
+      "administrasi",
+      "arsip",
+      "disposisi"
+    ],
+    "columns": [
+      "Klasifikasi Naskah Dinas",
+      "Surat Masuk",
+      "Surat Keluar",
+      "Tuntas Disposisi",
+      "Total Arsip Digital"
+    ],
+    "rows": [
+      {
+        "Klasifikasi Naskah Dinas": "Kebijakan Pimpinan & Kelembagaan",
+        "Surat Masuk": 32,
+        "Surat Keluar": 28,
+        "Tuntas Disposisi": 32,
+        "Total Arsip Digital": 60
+      },
+      {
+        "Klasifikasi Naskah Dinas": "Kemitraan Penyiaran & PKS Mitra",
+        "Surat Masuk": 48,
+        "Surat Keluar": 42,
+        "Tuntas Disposisi": 45,
+        "Total Arsip Digital": 90
+      },
+      {
+        "Klasifikasi Naskah Dinas": "Kepegawaian & SDM Stasiun",
+        "Surat Masuk": 65,
+        "Surat Keluar": 58,
+        "Tuntas Disposisi": 62,
+        "Total Arsip Digital": 123
+      },
+      {
+        "Klasifikasi Naskah Dinas": "Perencanaan Program & LAKIP",
+        "Surat Masuk": 26,
+        "Surat Keluar": 24,
+        "Tuntas Disposisi": 26,
+        "Total Arsip Digital": 50
+      },
+      {
+        "Klasifikasi Naskah Dinas": "Administrasi Umum & Rumah Tangga",
+        "Surat Masuk": 84,
+        "Surat Keluar": 76,
+        "Tuntas Disposisi": 80,
+        "Total Arsip Digital": 160
+      }
+    ],
+    "chartConfig": {
+      "type": "grouped-bar",
+      "labelKey": "Klasifikasi Naskah Dinas",
+      "valueKeys": [
+        "Surat Masuk",
+        "Surat Keluar"
+      ],
+      "colors": [
+        "#0284c7",
+        "#10b981"
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "slug": "data-kemitraan-sponsorship-pengembangan-usaha-tvri-maluku",
+    "title": "Data Kerja Sama Kemitraan, Sponsorship & Pengembangan Usaha Komersial",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Pengembangan Usaha",
+    "urusanId": 9,
+    "date": "05 Maret 2026",
+    "views": 395,
+    "downloads": 178,
+    "description": "Portofolio kemitraan komersial, kontrak penayangan iklan siaran, sponsor program televisi, kerja sama penyewaan infrastruktur pemancar, dan aktivasi event kepulauan.",
+    "tags": [
+      "pengembangan-usaha",
+      "mitra",
+      "sponsorship",
+      "bisnis",
+      "kerjasama"
+    ],
+    "columns": [
+      "Mitra Kerja Sama",
+      "Jenis Kemitraan",
+      "Status Kontrak",
+      "Nilai Kontrak (Rp)",
+      "Wilayah Penyelenggaraan"
+    ],
+    "rows": [
+      {
+        "Mitra Kerja Sama": "PT Bank Maluku Malut",
+        "Jenis Kemitraan": "Iklan & Sponsorship Program",
+        "Status Kontrak": "Aktif Berjalan",
+        "Nilai Kontrak (Rp)": 600000000,
+        "Wilayah Penyelenggaraan": "Kota Ambon"
+      },
+      {
+        "Mitra Kerja Sama": "PT Telkom Indonesia Regional VII",
+        "Jenis Kemitraan": "Infrastruktur Jaringan & Event",
+        "Status Kontrak": "Aktif Berjalan",
+        "Nilai Kontrak (Rp)": 450000000,
+        "Wilayah Penyelenggaraan": "Ambon & Maluku"
+      },
+      {
+        "Mitra Kerja Sama": "Pemerintah Provinsi Maluku",
+        "Jenis Kemitraan": "Diseminasi Informasi & Dialog",
+        "Status Kontrak": "Aktif Berjalan",
+        "Nilai Kontrak (Rp)": 400000000,
+        "Wilayah Penyelenggaraan": "Provinsi Maluku"
+      },
+      {
+        "Mitra Kerja Sama": "PT PLN (Persero) UIP Maluku",
+        "Jenis Kemitraan": "Iklan Layanan Masyarakat",
+        "Status Kontrak": "Tahap Negosiasi",
+        "Nilai Kontrak (Rp)": 300000000,
+        "Wilayah Penyelenggaraan": "Kota Ambon"
+      },
+      {
+        "Mitra Kerja Sama": "PT Pelindo (Persero) Regional IV",
+        "Jenis Kemitraan": "Aktivasi Event Bahari",
+        "Status Kontrak": "Aktif Berjalan",
+        "Nilai Kontrak (Rp)": 250000000,
+        "Wilayah Penyelenggaraan": "Ambon & Banda"
+      }
+    ],
+    "chartConfig": {
+      "type": "bar",
+      "labelKey": "Mitra Kerja Sama",
+      "valueKeys": [
+        "Nilai Kontrak (Rp)"
+      ],
+      "colors": [
+        "#f59e0b"
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "slug": "data-realisasi-anggaran-dipa-pnbp-tvri-maluku",
+    "title": "Data Alokasi Anggaran DIPA & Realisasi Penerimaan PNBP TVRI Maluku",
+    "organization": "TVRI Maluku",
+    "organizationId": "dinas-pendidikan-kebudayaan",
+    "urusan": "Keuangan",
+    "urusanId": 10,
+    "date": "01 Maret 2026",
+    "views": 440,
+    "downloads": 195,
+    "description": "Laporan transparansi realisasi belanja DIPA (Belanja Pegawai, Belanja Barang, Belanja Modal) dan capaian target Pendapatan Negara Bukan Pajak (PNBP) TVRI Maluku.",
+    "tags": [
+      "keuangan",
+      "anggaran",
+      "pnbp",
+      "dipa",
+      "realisasi"
+    ],
+    "columns": [
+      "Uraian Akun Belanja / PNBP",
+      "Pagu Anggaran (Rp)",
+      "Realisasi Keuangan (Rp)",
+      "Persentase Capaian (%)",
+      "Tahun Anggaran"
+    ],
+    "rows": [
+      {
+        "Uraian Akun Belanja / PNBP": "Belanja Pegawai (Akun 51)",
+        "Pagu Anggaran (Rp)": 19500000000,
+        "Realisasi Keuangan (Rp)": 16006500000,
+        "Persentase Capaian (%)": 82.1,
+        "Tahun Anggaran": 2025
+      },
+      {
+        "Uraian Akun Belanja / PNBP": "Belanja Barang Operasional (Akun 52)",
+        "Pagu Anggaran (Rp)": 17000000000,
+        "Realisasi Keuangan (Rp)": 12114000000,
+        "Persentase Capaian (%)": 71.3,
+        "Tahun Anggaran": 2025
+      },
+      {
+        "Uraian Akun Belanja / PNBP": "Belanja Modal Infrastruktur (Akun 53)",
+        "Pagu Anggaran (Rp)": 8500000000,
+        "Realisasi Keuangan (Rp)": 5780000000,
+        "Persentase Capaian (%)": 68,
+        "Tahun Anggaran": 2025
+      },
+      {
+        "Uraian Akun Belanja / PNBP": "Penerimaan PNBP Penyiaran",
+        "Pagu Anggaran (Rp)": 3400000000,
+        "Realisasi Keuangan (Rp)": 2850000000,
+        "Persentase Capaian (%)": 83.8,
+        "Tahun Anggaran": 2025
+      }
+    ],
+    "chartConfig": {
+      "type": "grouped-bar",
+      "labelKey": "Uraian Akun Belanja / PNBP",
+      "valueKeys": [
+        "Pagu Anggaran (Rp)",
+        "Realisasi Keuangan (Rp)"
+      ],
+      "colors": [
+        "#3b82f6",
+        "#10b981"
+      ]
+    }
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "dewasa": {
+    "disabilitas": [
+      "Disabilitas Fisik",
+      "Disabilitas Netra",
+      "Disabilitas Rungu / Wicara",
+      "Disabilitas Mental / Intelektual",
+      "Disabilitas Ganda / Sensorik"
+    ],
+    "pria": [
+      3420,
+      1280,
+      1840,
+      960,
+      640
+    ],
+    "wanita": [
+      2890,
+      1410,
+      1650,
+      820,
+      710
+    ]
+  },
+  "anak": {
+    "kelompokUsia": [
+      "0 - 4 Tahun",
+      "5 - 9 Tahun",
+      "10 - 14 Tahun",
+      "15 - 17 Tahun (Usia SMA/SMK)"
+    ],
+    "jenisDisabilitas": [
+      "Hambatan Fisik / Motorik",
+      "Hambatan Penglihatan",
+      "Hambatan Pendengaran",
+      "Hambatan Wicara & Bahasa",
+      "Hambatan Intelektual / Belajar"
+    ],
+    "series": [
+      {
+        "name": "Hambatan Fisik / Motorik",
+        "data": [
+          112,
+          245,
+          380,
+          410
+        ],
+        "color": "#ef4444"
+      },
+      {
+        "name": "Hambatan Penglihatan",
+        "data": [
+          45,
+          110,
+          195,
+          230
+        ],
+        "color": "#f59e0b"
+      },
+      {
+        "name": "Hambatan Pendengaran",
+        "data": [
+          68,
+          165,
+          270,
+          310
+        ],
+        "color": "#10b981"
+      },
+      {
+        "name": "Hambatan Wicara & Bahasa",
+        "data": [
+          140,
+          290,
+          340,
+          260
+        ],
+        "color": "#3b82f6"
+      },
+      {
+        "name": "Hambatan Intelektual / Belajar",
+        "data": [
+          85,
+          215,
+          360,
+          390
+        ],
+        "color": "#8b5cf6"
+      }
+    ]
+  }
+}
